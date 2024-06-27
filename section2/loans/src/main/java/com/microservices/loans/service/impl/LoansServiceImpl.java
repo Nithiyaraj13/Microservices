@@ -27,6 +27,7 @@ public class LoansServiceImpl implements ILoansService {
         }
         loansRepository.save(createNewLoan(mobileNumber));
     }
+    //commit
 
     private Loans createNewLoan(String mobileNumber){
         Loans newLoan = new Loans();
