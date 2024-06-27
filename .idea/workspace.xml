@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a3fd6acd-fbe8-4960-b245-9ccb3b8cc4fa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/section2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/.idea/Microservices.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/accounts/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/accounts/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/accounts/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/accounts/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/accounts/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/microservices/accounts/AccountsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/microservices/accounts/Repository/AccountsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/microservices/accounts/Repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/microservices/accounts/audit/AuditAwareImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/microservices/accounts/constants/AccountsConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/microservices/accounts/controller/AccountsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/microservices/accounts/dto/AccountsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/microservices/accounts/dto/CustomerDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/microservices/accounts/dto/ErrorResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/microservices/accounts/dto/ResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/microservices/accounts/entity/Accounts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/microservices/accounts/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/microservices/accounts/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/microservices/accounts/exception/CustomerAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/microservices/accounts/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/microservices/accounts/exception/ResoureceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/microservices/accounts/mapper/AccountsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/microservices/accounts/mapper/CustomerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/microservices/accounts/service/AccountsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/microservices/accounts/service/IAccountsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/accounts/src/test/java/com/microservices/accounts/AccountsApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/microservices/cards/CardsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/microservices/cards/audit/AuditAwareImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/microservices/cards/constants/CardsConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/microservices/cards/controller/CardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/microservices/cards/dto/CardsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/microservices/cards/dto/ErrorResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/microservices/cards/dto/ResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/microservices/cards/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/microservices/cards/entity/Cards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/microservices/cards/exception/CardAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/microservices/cards/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/microservices/cards/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/microservices/cards/mapper/CardsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/microservices/cards/repository/CardsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/microservices/cards/service/ICardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/microservices/cards/service/impl/CardsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/test/java/com/microservices/cards/CardsApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2iS5l4aTYjbMah093qQBOKFjYD9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "Acconts-and-cards",
+    "last_opened_file_path": "C:/Users/nithiyaraj.vadivel/Documents/microservices/section2/Microservices/section2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nithiyaraj.vadivel\Documents\microservices\section2\Microservices\section2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nithiyaraj.vadivel\Documents\microservices\section2\Microservices\section2" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3fd6acd-fbe8-4960-b245-9ccb3b8cc4fa" name="Changes" comment="" />
+      <created>1719471285778</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719471285778</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
