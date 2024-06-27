@@ -1,6 +1,7 @@
 package com.microservices.loans.entity;
 
 import jakarta.persistence.Column;
+import jakarta.persistence.EntityListeners;
 import jakarta.persistence.MappedSuperclass;
 import lombok.Getter;
 import lombok.Setter;
@@ -13,6 +14,7 @@ import org.springframework.data.annotation.LastModifiedDate;
 import java.time.LocalDateTime;
 
 @MappedSuperclass
+@EntityListeners(EntityListeners.class)
 @Getter
 @Setter
 @ToString
